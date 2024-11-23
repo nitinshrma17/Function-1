@@ -1,0 +1,24 @@
+#include<stdio.h>
+ 
+ int sum(int n1,int n2);
+
+int main(){
+    int x,y;
+
+    printf("Ennter number :");
+    scanf("%d %d",&x,&y);
+
+    int add=sum(x,y);
+    printf("%d",add);
+
+
+    return  0;
+}
+
+// Function Definition
+
+int sum(int n1,int n2){
+    int value=n1+n2;
+
+    return value;
+}
